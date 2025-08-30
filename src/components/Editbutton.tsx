@@ -3,9 +3,7 @@
 import { Dialog } from "@radix-ui/react-dialog";
 import React, { useState } from "react";
 import { DialogTrigger } from "./ui/dialog";
-import { Edit, Plus } from "lucide-react";
-import Newnotedialog from "./Newnotedialog";
-import { cn } from "@/lib/utils";
+import { Edit } from "lucide-react";
 import Editnotedialog from "./Editnotedialog";
 import { Note } from "@/db/schemas/notes";
 

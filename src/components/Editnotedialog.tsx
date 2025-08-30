@@ -4,7 +4,7 @@ import React, { Dispatch, SetStateAction, useTransition } from "react";
 import { DialogFooter, DialogHeader } from "./ui/dialog";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
-import { createNewnote, Editnewnote } from "@/actions/notes";
+import { Editnewnote } from "@/actions/notes";
 import toast from "react-hot-toast";
 import { Note } from "@/db/schemas/notes";
 

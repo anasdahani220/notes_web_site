@@ -57,7 +57,7 @@ function LoginCreateAccount() {
           />
           <Button disabled={isPending}>Login</Button>
           <p className="mt-4 text-center text-sm">
-            d'ont have an account
+            d ont have an account
             <Link
               href="/create-account"
               className="hover:text-primary ml-2 underline transition-colors duration-200 ease-in-out"
